@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: #DC7633;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+form{
+  background-color: #fff;
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: .3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2.3em;
+  position: fixed;
+}
+
+form h1{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form .inputs{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 25px;
+  padding-bottom: 150px;
+}
+
+form .inputs input{
+  font-size: 20px;
+  width: auto;
+  height: 2em;
+  margin-top: 1.5em;
+  outline: none;
+  border: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+form .inputs input:focus{
+  border-bottom: 2px solid #DC7633;
+  transition: ease-in-out 200ms;
+}
+
+form .inputs input[type="submit"]{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border: 2px solid #DC7633;
+  border-radius: 10px;
+}
+
+form .inputs input[type="submit"]:hover{
+  background-color: #DC7633;
+  color: #fff;
+}
+
+form .inputs small a{
+ display: flex;
+ justify-content: right;
+ padding: 20px;
+}
